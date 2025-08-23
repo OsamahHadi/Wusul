@@ -1,0 +1,54 @@
+ Categories row
+.categories {
+    /*gap: 20px;*/
+    /*padding: 10px 20px;*/
+    overflow-x: scroll;
+    position: relative !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.categories::-webkit-scrollbar {
+    display: none;
+}
+
+#right {
+    position: absolute !important;
+    top: 50% !important;
+    right: 0px !important;
+    font-size: 20px !important;
+    color: #999 !important;
+    background-color: #eee !important;
+    padding: 10px !important;
+    z-index: 1 !important;
+}
+
+#left {
+    position: absolute !important;
+    top: 50% !important;
+    left: 0px !important;
+    font-size: 20px !important;
+    color: #999 !important;
+    background-color: #eee !important;
+    padding: 10px !important;
+}
+
+/* Books slider */
+.slider {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: unset !important;
+    scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+#drager {
+     cursor: grab;
+     overflow: auto;
+}

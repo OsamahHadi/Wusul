@@ -1,0 +1,12 @@
+.nav-tabs .nav-item .nav-link {
+    border: #eee 1px solid !important;
+    background-color: #fff !important;
+    /*box-shadow: 1px 1px #dddd !important;*/
+}
+
+.nav-tabs .nav-item .active {
+    border: 0px !important;
+    background-color: #e9e9FF !important;
+    color: #696cff !important;
+    /*box-shadow: none !important;*/
+}

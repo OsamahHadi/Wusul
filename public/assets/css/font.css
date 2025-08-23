@@ -1,0 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/sst.ttf);
+}
+* {
+    font-family: myFirstFont;
+}
+
+.btn {
+    padding-bottom: 10px !important;
+    padding-top: 5px !important;
+}
